@@ -1,0 +1,157 @@
+.background {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+
+    .tlo {
+        width: 100%;
+    }
+
+    .logo {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 30%;
+    }
+}
+
+.page__container {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    padding: 2vw;
+    z-index: 1;
+
+    h1 {
+        width: 70%;
+        color: #ffca00;
+        font-size: calc(20px + 1vw);
+        font-weight: 600;
+        line-height: 1.2;
+        border-bottom: 5px solid white;
+
+        sup {
+            vertical-align: super;
+            font-size: 9px;
+        }
+
+        span {
+            color: white;
+            font-weight: 300;
+        }
+    }
+}
+
+.central__container {
+    width: 50vw;
+    height: 50vh;
+    position: absolute;
+    left: 50%;
+    top: 35%;
+    transform: translateY(-50%);
+    display: flex;
+    z-index: 1;
+
+    &.page02 {
+        h1 {
+            font-size: calc(20px + .5vw);
+            align-self: center;
+            justify-self: center;
+            text-align: left;
+
+            span {
+                text-transform: none;
+                color: white;
+                font-weight: 400;
+            }
+
+            sup {
+                vertical-align: super;
+                font-size: 12px;
+            }
+        }
+
+
+    }
+
+    h1 {
+        text-align: center;
+        color: #ffca00;
+        text-transform: uppercase;
+        font-size: calc(25px + 1vw);
+        justify-self: center;
+        align-self: center;
+        font-weight: 800;
+    }
+
+    .button {
+        justify-self: center;
+        align-self: center;
+        width: 20vw;
+        height: 20vw;
+        border: 4px solid white;
+        border-radius: 3vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+
+
+        color: white;
+        font-weight: 700;
+        text-transform: uppercase;
+        text-align: center;
+        cursor: pointer;
+
+        h1 {
+            font-size: calc(20px + .5vw);
+            color: white;
+
+            span {
+                color: #ffca00;
+                font-size: calc(25px + 1vw);
+
+            }
+
+            sup {
+                vertical-align: super;
+                font-size: 12px;
+            }
+        }
+    }
+}
+
+.warning {
+    position: absolute;
+    bottom: 1%;
+    left: 1%;
+    color: white;
+    font-size: calc(8px + .2vw);
+    font-weight: 200;
+    z-index: 1;
+}
+
+.notes {
+    position: absolute;
+    color: white;
+    width: 70%;
+    bottom: 1%;
+    right: 1%;
+    font-size: calc(9px + .2vw);
+    font-weight: 200;
+
+    &.page02 {
+        right: 15%;
+        width: 60%;
+    }
+}
+
+.dalej {
+    width: 7vw;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    cursor: pointer;
+    z-index: 999;
+}
