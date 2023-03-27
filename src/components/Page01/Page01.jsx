@@ -32,7 +32,7 @@ małych i dużych stawów. <sup>(1,2,3)</sup></span> </h1>
 
           {/* ########### */}
 
-     <div className="button">
+     <div onClick={() => setPage(11)} className="button">
       <h1>
       <span>e</span>
      uropejskie wytyczne
@@ -41,7 +41,7 @@ małych i dużych stawów. <sup>(1,2,3)</sup></span> </h1>
 
           {/* ########### */}
 
-     <div className="button">
+  <div onClick={() => setPage(15)} className="button">
       <h1>
       <span>n</span>
 lpz <br /> A DZIAŁANIA 
@@ -51,7 +51,7 @@ NIEPOŻĄDANE
 
           {/* ########### */}
 
-     <div className="button">
+  <div onClick={() => setPage(19)} className="button">
       <h1>
       <span>s</span>
       UPLEMENTY
