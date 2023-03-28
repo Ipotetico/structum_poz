@@ -15,7 +15,7 @@ const Page04 = ({setPage}) => {
 
 
     <div className="page__container">
-        <h1>Choroba zwyrodnieniowa stawów<span> stanowi</span> globalny problem <span>medyczny o narastającej skali. <sup>(1)</sup></span> </h1>
+        <h1><span>ChZS jest jedną z najczęstszych przyczyn</span> niepełnosprawności ruchowej.<sup>(1)</sup> </h1>
     </div>
 
     <div className="central__container page04">
@@ -23,8 +23,8 @@ const Page04 = ({setPage}) => {
 ChZ stawu kolanowego
 <span>
   <br /> 
-jest najczęstszą postacią
-choroby oraz jedną z głównych 
+jest najczęstszą postacią <br />
+choroby oraz jedną z głównych <br />
 przyczyn bólu przewlekłego.
  <sup>(2)</sup> </span>
 </h1>
@@ -35,17 +35,17 @@ przyczyn bólu przewlekłego.
 Wczesne rozpoznanie
 <span>
   <br /> 
-i leczenie choroby
+i leczenie choroby <br />
 zwyrodnieniowej stawów: </span>
 </h1>
 
 <img src={process.env.PUBLIC_URL + `/images/zolta_strzala.svg`} alt="" />
 
 <h1>
-złagodzenie dolegliwości
+Złagodzenie dolegliwości
 <br /><span>
-oraz </span> zapobieganie 
-niepełnosprawności <span>
+oraz </span> zapobieganie <br />
+niepełnosprawności <span><br />
 ruchowej<sup>(3)</sup></span>
 
 </h1>

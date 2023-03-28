@@ -11,7 +11,7 @@ const Page01 = ({setPage}) => {
 <p className="notes">1. Kloppenburg M, Kroon FPB, Blanco FJ et al.: 2018 update of the EULAR recommendations for the management of hand osteoarthritis. Ann Rheum Dis 2019; 78: 16-24 2. Bruyere O, Honvo G, Veronese N et al.: An updated algorithm recommendation for the management of knee osteoarthritis from the European Society for Clinical and Economic Aspects of Osteoporosis, Osteoarthritis and Musculoskeletal Diseases (ESCEO). Seminars in Arthritis and Rheumatism 2019; 49: 337-350 3. Charakterystyka produktu leczniczego Structum 01.2022</p>
 </div>
     <div className="page__container">
-<h1>Spełnia europejskie standardy <span> leczenia ChZS 
+<h1>Spełnia europejskie standardy <span> leczenia ChZS <br />
 małych i dużych stawów. <sup>(1,2,3)</sup></span> </h1>
     </div>
 

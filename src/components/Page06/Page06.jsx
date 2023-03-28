@@ -25,18 +25,17 @@ const Page06 = ({setPage}) => {
      {/* ########### */}
 
 
-     <div  className="button page05">
-      <h1>NLPZ:<span> stosowanie 
+     <div  className="button page06">
+ <h1><h2>NLPZ:</h2> <span> stosowanie 
 przez </span> <br /> krótki czas, maksymalnie <br /> w 7-dniowych seriach.<span> Przeciwwskazania <br /> 
-do stosowania oraz ryzyko działań niepożądanych.<sup>(1,2)</sup></span></h1>
+do stosowania oraz ryzyko <br /> działań niepożądanych.<sup>(1,2)</sup></span></h1>
       <div className="podtytul">krótkoterminowo</div>
      </div>
 
           {/* ########### */}
 
-     <div  className="button page05">
-       <h1>
-SYSADOA: <span>stosowanie</span> <br /> w sposób ciągły, czasem <br /> do kilkunastu miesięcy. <span>Działanie pojawia się <br /> po około 3-6 tygodniach <br /> od rozpoczęcia terapii.<sup>(1,2)</sup> </span>
+     <div  className="button page06">
+        <h1 ><h2 >SYSADOA: </h2> <span>stosowanie</span> <br /> w sposób ciągły, <br /> czasem  do kilkunastu  miesięcy. <span>Działanie pojawia <br /> się po około 3-6 tygodniach <br /> od rozpoczęcia terapii.<sup>(1,2)</sup> </span>
       </h1>
       <div className="podtytul">długoterminowo</div>
      </div>

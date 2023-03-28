@@ -19,11 +19,10 @@ const Page02 = ({setPage}) => {
 
     <div className="central__container page02">
 <h1>
-structum®  
-<span>
-  <br /> 
-spełnia europejskie 
-standardy leczenia ChZS 
+Structum<sup>® </sup>  
+ <span>
+- spełnia europejskie 
+standardy leczenia ChZS <br />
 małych i dużych stawów. <sup>(1,2,3)</sup> </span>
 </h1>
     </div>

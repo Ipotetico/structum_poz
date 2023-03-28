@@ -16,7 +16,7 @@ const Page03 = ({setPage}) => {
 <p className="notes page02">1. Choroba zwyrodnieniowa stawów – niepokojące symptomy | Reumatologia - mp.pl 2. Romanowski W. Jak skutecznie leczyć w chorobie zwyrodnieniowej stawów.  Od ciągłości przyjmowania leków zależy  efektywność terapii. Puls Medycyny  </p>
 </div>
     <div className="page__container">
-<h1>Choroba zwyrodnieniowa stawów<span> stanowi</span> globalny problem <span>medyczny o narastającej skali. <sup>(1)</sup></span> </h1>
+<h1>Choroba zwyrodnieniowa stawów<span> stanowi</span> <br /> globalny problem <span>medyczny o narastającej skali. <sup>(1)</sup></span> </h1>
     </div>
 
 
@@ -26,7 +26,7 @@ const Page03 = ({setPage}) => {
 
     <div onClick={() => setOpen( !open)}lick={() => !open} className={!open ? "circle" : "circle open"}>
 <h1>
- <span>Pierwszy krok kierowany do gabinetu <br /> </span>lekarza POZ
+ <span>Pierwszy krok <br /> kierowany <br /> do gabinetu <br /> </span>lekarza POZ
  </h1>
     </div>
     
@@ -36,8 +36,8 @@ const Page03 = ({setPage}) => {
       <h1>
 ChZS <span> należy do </span>
 najczęstszych 
-schorzeń <span>
-u osób <br /> po 60. 
+schorzeń <span><br />
+u osób <br /> po 60. <br />
 roku życia.<sup>(2)</sup></span>
       </h1>
      </div>
@@ -46,7 +46,7 @@ roku życia.<sup>(2)</sup></span>
 
      <div onClick={() => setOpen( !open)} className="button page03">
        <h1>
-<span>W Polsce na</span> ChZS <span>
+<span>W Polsce <br /> na</span> ChZS <span><br />
 choruje blisko</span> <br /> 2 miliony osób.<sup>(1)</sup>
       </h1>
      </div>
@@ -54,7 +54,7 @@ choruje blisko</span> <br /> 2 miliony osób.<sup>(1)</sup>
           {/* ########### */}
 
      <div onClick={() => setOpen( !open)} className="button page03">
-        <h1>Ograniczony dostęp <span>pacjentów do lekarzy</span> <br /> specjalistów.<sup>(2)</sup>
+        <h1>Ograniczony <br /> dostęp <br /> <span>pacjentów <br /> do lekarzy</span> <br /> specjalistów.<sup>(2)</sup>
       </h1>
      </div>
 

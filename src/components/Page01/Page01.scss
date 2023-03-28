@@ -31,19 +31,21 @@ body,
     h1 {
         width: 75%;
         color: #ffca00;
-        font-size: calc(20px + 1vw);
-        font-weight: 600;
+        font-size: calc(19px + 1vw);
+        font-weight: 700;
         line-height: 1.2;
         border-bottom: 5px solid white;
+        padding-bottom: .5vw;
+        font-kerning:none;
 
         sup {
             vertical-align: super;
-            font-size: 9px;
+            font-size: 14px;
         }
 
         span {
             color: white;
-            font-weight: 300;
+            font-weight:500;
         }
     }
 }
@@ -64,18 +66,19 @@ body,
 
     &.page02 {
         display: flex;
-        left: 60%;
+        left: 50%;
         top: 35%;
-        width: 50vw;
+        width: 60vw;
         h1 {
-            font-size: calc(20px + .5vw);
+            text-transform: none;
+            font-size: calc(25px + .5vw);
             text-align: left;
-            width: 70%;
+            width: 80%;
 
             span {
                 text-transform: none;
                 color: white;
-                font-weight: 400;
+                font-weight: 500;
             }
 
             sup {
@@ -96,7 +99,7 @@ body,
                 grid-template-rows: 1fr 1fr;
 
                 .button {
-                    width: 35vw;
+                    width: 30vw;
                     height: 20vw;
                 }
             }
@@ -113,9 +116,9 @@ body,
                 grid-template-rows: 1fr .5fr 1fr .5fr 1fr;
 
                 img {
-                    height: 50%;
-            align-self: center;
-            justify-self: center;
+             width: 10%;
+             align-self: center;
+             justify-self: center;
         }
 
         h1 {
@@ -123,12 +126,14 @@ body,
             font-size: calc(20px + .5vw);
             width: 70%;
             text-align: center;
+            font-weight: 600;
+            line-height: 1.1;
         }
 
         span {
             text-transform: none;
             color: white;
-            font-weight: 400;
+            font-weight: 600;
         }
 
         sup {
@@ -156,13 +161,15 @@ body,
             }
 
             h1 {
+                text-align: left;
                 color: white;
                 text-transform: none;
                 font-size: calc(20px + 1vw);
-                font-weight: 500;
+                font-weight: 600;
+                padding: 0 2vw;
 
                 span {
-                    font-weight: 700;
+                    font-weight: 600;
                     color: #ffca00;
                 }
             }
@@ -172,12 +179,30 @@ body,
                 height: 100%;
                 display: grid;
                 grid-template-columns: repeat(3, 1fr);
-                gap: 2vw;
-                padding: 0 2vw;
 
                 .button {
-                    width: 100%;
-                    height: 20vw;
+                    width:85%;
+                    height: 22vw;
+                    padding: 0;
+
+                    h1,
+                    span {
+                        font-size: calc(22px + .5vw);
+                        display: inline-block;
+                    }
+
+                    h1 {
+
+                        text-align: center;
+                        font-weight: 600;
+                        line-height: 1.1;
+                    }
+
+                    span {
+                        text-align: center;
+                        font-weight: 600;
+                        line-height: 1.1;
+                    }
                 }
                 }
                 }
@@ -192,6 +217,31 @@ body,
                         position: relative;
                         width: 90%;
                         height: 70%;
+           h1,
+           span,
+           h2 {
+               font-size: calc(25px + .5vw);
+               text-transform: none;
+               display: inline-block;
+           }
+
+           h2 {
+               font-weight: 800;
+           }
+
+           h1 {
+               color: #ffca00;
+               text-align: center;
+               font-weight: 600;
+               line-height: 1.1;
+           }
+
+           span {
+               color: white;
+               text-align: center;
+               font-weight: 600;
+               line-height: 1.1;
+           }
 
                         .podtytul {
                             position: absolute;
@@ -201,11 +251,12 @@ body,
                             border: 3px solid #ffca00;
                             border-radius: 5vw;
                             background-color: white;
-                            color: black;
+                            color: #000073;
                             display: flex;
                             align-items: center;
                             justify-content: center;
                             font-size: calc(18px + 1vw);
+                            text-transform: none;
                         }
                     }
     }
@@ -214,7 +265,7 @@ body,
         text-align: center;
         color: #ffca00;
         text-transform: uppercase;
-        font-size: calc(25px + 1vw);
+        font-size: calc(35px + 1vw);
         justify-self: center;
         align-self: center;
         font-weight: 800;
@@ -237,50 +288,62 @@ body,
         cursor: pointer;
 
         &.page03 {
+            height: 22vw;
             h1 {
-                font-size: calc(20px + 1vw);
+                font-size: calc(16px + 1vw);
                 color: #ffca00;
                 text-transform: none;
-                font-weight: 700;
+                font-weight: 600;
+                line-height: 1.1;
 
                 span {
-                    font-size: calc(20px + 1vw);
+                    font-size: calc(16px + 1vw);
                     color: white;
-                    font-weight: 400;
+                    font-weight: 600;
                 }
             }
         }
 
         &.page05 {
             position: relative;
+            padding: 2vw;
+
+            h2 {
+                font-size: calc(16px + 1vw);
+                font-weight: 800;
+            }
 
             img {
-                width: 30%;
+                width: 20%;
                 position: absolute;
-                top: -50%;
+                top: -15%;
             }
 
             h1 {
-                font-size: calc(20px + 1vw);
+                font-size: calc(18px + 1vw);
                 color: #ffca00;
                 text-transform: none;
                 font-weight: 700;
 
                 span {
-                    font-size: calc(20px + 1vw);
+                    font-size: calc(18px + 1vw);
                     color: white;
                     font-weight: 400;
                 }
             }
         }
 
+        // PIERWSZA STRONA
+
         h1 {
             font-size: calc(20px + .5vw);
             color: white;
+            font-weight: 600;
 
             span {
                 color: #ffca00;
                 font-size: calc(25px + 1vw);
+                font-weight: 800;
 
             }
 
@@ -315,8 +378,9 @@ body,
                     color: #ffca00;
                     text-transform: none;
                     font-weight: 600;
-                    font-size: calc(20px + 1vw);
+                    font-size: calc(12px + 1vw);
                     transition: all .5s linear;
+                    line-height: 1.2;
 
                     &.hide {
                         opacity: 0;
@@ -328,8 +392,9 @@ body,
                     }
 
                     span {
-                        font-size: calc(20px + 1vw);
+                        font-size: calc(12px + 1vw);
                         color: white;
+                        font-weight: 600;
                     }
 
                     sup {
@@ -341,21 +406,24 @@ body,
 
             &.page16 {
                 display: grid;
-                grid-template-columns: 1fr .5fr 2fr;
+                grid-template-columns: 1.3fr .5fr 2fr;
                 grid-template-rows: repeat(3, 1fr);
                 padding: 0 4vw;
                 gap: 2vw;
 
                 .title {
-                    font-weight: 400;
+                    font-size: calc(18px + 1vw);
+                    font-weight: 600;
                     color: white;
                 }
 
                 .copy {
-                    font-size: calc(20px + .5vw);
-                    font-weight: 400;
+                    text-align: left;
+                    font-size: calc(16px + .5vw);
+                    font-weight: 600;
                     color: white;
                     text-transform: none;
+                    line-height: 1.2;
 
                     span {
                         color: #ffca00;
@@ -368,6 +436,8 @@ body,
                 }
 
                 img {
+                    align-self: center;
+                    justify-self: center;
                     width: 100%;
     }
     }
@@ -379,7 +449,7 @@ body,
     left: 1%;
     color: white;
     font-size: calc(8px + .2vw);
-    font-weight: 200;
+    font-weight:400;
     z-index: 1;
     &.two {
         left: 50%;
@@ -394,9 +464,10 @@ body,
     bottom: 1%;
     right: 1%;
     font-size: calc(9px + .2vw);
-    font-weight: 200;
+    font-weight: 400;
 
     &.page02 {
+            font-size: calc(8px + .1vw);
         right: 15%;
         width: 60%;
     }
@@ -415,8 +486,8 @@ body,
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%) scale(0);
-    width: 30vw;
-    height: 30vw;
+    width: 25vw;
+    height: 25vw;
     background-color: #28396e;
     border: 4px solid white;
     border-radius: 50%;
@@ -427,12 +498,15 @@ body,
     transition: all .5s ease-out;
 
     h1 {
+        font-size: calc(20px + .5vw);
         text-transform: none;
-        font-weight: 600;
+        font-weight: 800;
+        line-height: 1.1;
 
         span {
+            font-size: calc(20px + .5vw);
             color: white;
-            font-weight: 400;
+            font-weight: 600;
         }
     }
 
@@ -449,14 +523,20 @@ body,
     justify-content: space-around;
     flex-direction: column;
 
+
+
     &.page12 {
+
+        padding: 3vw 0;
 
         h1,
         h2 {
+            text-align: left;
             width: 77%;
             text-transform: none;
             font-weight: 600;
-            font-size: calc(20px + 1vw);
+            font-size: calc(14px + 1vw);
+            line-height: 1.3;
         }
 
         sup {
@@ -477,4 +557,10 @@ body,
         font-size: calc(20px + 1vw);
 
     }
+}
+.info {
+    position: absolute;
+    width: 80%;
+    align-self: center;
+    justify-self: center;
 }

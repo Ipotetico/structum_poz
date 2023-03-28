@@ -23,9 +23,9 @@ dotyczące leczenia ChZS. </span>  </h1>
 
     <div className="central__container page05">
 
-<h1> Niefarmakologiczne i farmakologiczne metody leczenia: 
-wytyczne ESCEO dotyczące leczenia ChZ stawu 
-kolanowego zalecają stosowanie <span>siarczanu chondroityny lub siarczanu glukozaminy </span><br /> z zastrzeżeniem:</h1>
+<h1> Niefarmakologiczne i farmakologiczne metody leczenia: <br /><br />
+wytyczne ESCEO dotyczące leczenia ChZ stawu  <br />
+kolanowego zalecają stosowanie <span>siarczanu chondroityny <br /> lub siarczanu glukozaminy </span> z zastrzeżeniem:</h1>
     
      {/* ########### */}
 
@@ -33,7 +33,7 @@ kolanowego zalecają stosowanie <span>siarczanu chondroityny lub siarczanu gluko
 
      <div  className="button page05">
         <img src={process.env.PUBLIC_URL + `/images/zolta_strzala.svg`} alt="" />
-      <h1>nie powinny być<span> podawane </span>razem</h1>
+      <h1>nie powinny być <span> podawane </span> <br /> razem</h1>
      </div>
 
           {/* ########### */}
@@ -41,7 +41,7 @@ kolanowego zalecają stosowanie <span>siarczanu chondroityny lub siarczanu gluko
      <div  className="button page05">
                <img src={process.env.PUBLIC_URL + `/images/zolta_strzala.svg`} alt="" />
        <h1>
-nie <span>mogą być</span> suplementami diety
+nie <span>mogą być</span> suplementami <br /> diety
       </h1>
      </div>
 
@@ -49,7 +49,7 @@ nie <span>mogą być</span> suplementami diety
 
      <div  className="button page05">
                <img src={process.env.PUBLIC_URL + `/images/zolta_strzala.svg`} alt="" />
-        <h1>NLPZ miejscowo <span> <br /> w kolejnym
+        <h1>NLPZ miejscowo <span> w  kolejnym <br />
 etapie doustnie</span>
       </h1>
      </div>

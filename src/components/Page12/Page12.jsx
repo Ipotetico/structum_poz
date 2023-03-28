@@ -28,21 +28,21 @@ const Page12 = ({setPage}) => {
 
 <div className="container page12">
     <h1>
-   <span style={{color:'white'}}> ESCEO*:</span> 
+   <span style={{color:'white', fontWeight:800}}> ESCEO*:</span> 
 </h1>
 <h1>
-Brak rekomendacji dla 
-połączenia <span style={{color:'white'}}> siarczanu
+Brak rekomendacji dla <br />
+połączenia <span style={{color:'white'}}> siarczanu <br />
 chondroityny z glukozaminą.<sup>(1)</sup></span>
 </h1>
 <br />
 <h1>
-Brak dowodów na skuteczność połączenia <span style={{color:'white'}}>siarczanu 
-chondroityny z glukozaminą w leczeniu ChZS. <sup>(1)</sup></span> 
+Brak dowodów na skuteczność <br /> połączenia <span style={{color:'white'}}>siarczanu <br />
+chondroityny z glukozaminą <br /> w leczeniu ChZS. <sup>(1)</sup></span> 
 </h1>
 <br />
 <h1>
-<span style={{color:'white'}}>Połączenie</span> siarczanu chondroityny<span style={{color:'white'}}> z glukozaminą</span> redukuje jej biodostępność o 50-75%.<sup>(1)</sup> 
+<span style={{color:'white'}}>Połączenie</span> siarczanu chondroityny<span style={{color:'white'}}> <br /> z glukozaminą</span> redukuje jej biodostępność o 50-75%.<sup>(1)</sup> 
 </h1>
 </div>
 </div>

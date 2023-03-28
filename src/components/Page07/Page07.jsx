@@ -14,7 +14,7 @@ const Page07 = ({setPage}) => {
 <p className="notes page02">Mastalerz-Migas A., Kuryliszyn-Moskal A., Wiland P., Kucharz E. Algorytm diagnostyczny choroby zwyrodnieniowej stawu kolanowego – rekomendacje dla lekarzy rodzinnych LEKARZ POZ, czerwiec 2021, issn 2450-3517 </p>
 </div>
     <div className="page__container">
-<h1>Jak prawidłowo diagnozować<span> <br /> pacjenta
+<h1>Jak prawidłowo diagnozować<span>  pacjenta <br />
 z chorobą zwyrodnieniową stawów?</span>   </h1>
     </div>
 
@@ -27,7 +27,7 @@ z chorobą zwyrodnieniową stawów?</span>   </h1>
         <img src={process.env.PUBLIC_URL + `/images/trzy_fotki.png`} alt="" />
 </div>
 
-<div className="container">
+<div className="container" style={{padding:'2vw '}}>
     <h2>prof. dr hab. n. med. <br />
 Anna Kuryliszyn-Moskal</h2>
 <h2>prof. dr hab. n. med. <br />
