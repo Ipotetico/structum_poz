@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/structum_poz/static/css/main.55a1b7a5.css",
-    "main.js": "/structum_poz/static/js/main.cc7cdd8f.js",
+    "main.css": "/structum_poz/static/css/main.6101408d.css",
+    "main.js": "/structum_poz/static/js/main.b6d8d66e.js",
     "index.html": "/structum_poz/index.html",
-    "main.55a1b7a5.css.map": "/structum_poz/static/css/main.55a1b7a5.css.map",
-    "main.cc7cdd8f.js.map": "/structum_poz/static/js/main.cc7cdd8f.js.map"
+    "main.6101408d.css.map": "/structum_poz/static/css/main.6101408d.css.map",
+    "main.b6d8d66e.js.map": "/structum_poz/static/js/main.b6d8d66e.js.map"
   },
   "entrypoints": [
-    "static/css/main.55a1b7a5.css",
-    "static/js/main.cc7cdd8f.js"
+    "static/css/main.6101408d.css",
+    "static/js/main.b6d8d66e.js"
   ]
 }
