@@ -16,22 +16,21 @@ const Page20 = ({setPage}) => {
 Wydawnictwo Lekarskie, Wydanie I Warszawa 2021 ISBN 978-83-200-6367-7 * evidence-based medicine </p>
 </div>
     <div className="page__container">
-<h1>Spełnia europejskie standardy<span> <br /> leczenia ChZS małych i dużych stawów.<sup>(1,2)</sup> </span> </h1>
+<h1><span>Leki i suplementy diety </span>– to nie to samo. <br /> SUPLEMENTOMANIA </h1>
     </div>
 
 
 
-    <div className="central__container page06">
+    <div className="central__container page12">
     
-<div className="container">
-    <img src={process.env.PUBLIC_URL + `/images/piguly.png`} alt="" />
+<div  className="container">
+    <img  src={process.env.PUBLIC_URL + `/images/piguly.png`} alt="" />
 </div>
 
 <div className="container page12">
-    <h1 style={{color: 'white', fontWeight:600, textAlign:'left', fontSize:'calc(14px + 0.5vw)'}}>
+    <h1 style={{color: 'white', fontWeight:600, textAlign:'left', fontSize:'calc(18px + 0.5vw)', left:0}}>
 Suplementy diety nie leczą, nie są 
-alternatywą dla leków, <span style={{color: '#ffca00'}}> nie podlegają badaniom klinicznym</span> zgodnym 
-z EBM*.
+alternatywą dla leków, <span style={{color: '#ffca00'}}> nie podlegają badaniom klinicznym</span> zgodnym z EBM*.
 <br />
 <br />
 <br />
@@ -39,11 +38,11 @@ Stosowane niewłaściwie, wraz
 z niektórymi lekami, <span style={{color: '#ffca00'}}>mogą 
 powodować ciężkie działania 
 niepożądane.</span> Ryzyko interakcji 
-z lekami <br /> nie jest oceniane.
+z lekami  nie jest oceniane.
 <br />
 <br />
 <br />
-Brak badań parametrów farmakokinetycznych, nawet jeśli dawka SYSADOA jest tożsama w produkcie leczniczym i suplemencie diety, <br /> to<span style={{color: '#ffca00'}}> nie wiadomo, jaka ilość substancji czynnej zostanie wchłonięta (jaka jest biodostępność).</span>
+Brak badań parametrów farmakokinetycznych, nawet jeśli dawka SYSADOA jest tożsama <br /> w produkcie leczniczym i suplemencie diety, to<span style={{color: '#ffca00'}}> nie wiadomo, jaka ilość substancji czynnej zostanie wchłonięta (jaka jest biodostępność).</span>
     </h1>
 </div>
 </div>

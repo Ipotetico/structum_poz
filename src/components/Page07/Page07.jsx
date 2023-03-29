@@ -27,7 +27,7 @@ z chorobą zwyrodnieniową stawów?</span>   </h1>
         <img src={process.env.PUBLIC_URL + `/images/trzy_fotki.png`} alt="" />
 </div>
 
-<div className="container" style={{padding:'2vw '}}>
+<div className="container" style={{padding:'3vw '}}>
     <h2>prof. dr hab. n. med. <br />
 Anna Kuryliszyn-Moskal</h2>
 <h2>prof. dr hab. n. med. <br />

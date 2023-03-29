@@ -15,12 +15,12 @@ const Page12 = ({setPage}) => {
 <p className="notes page02">1.. Bruyere O, Honvo G, Veronese N et al.: An updated algorithm recommendation for the management of knee osteoarthritis from the European Society for Clinical and Economic Aspects of Osteoporosis, Osteoarthritis and Musculoskeletal Diseases (ESCEO). Seminars in Arthritis and Rheumatism 2019; 49: 337-350 2. Kloppenburg M, Kroon FPB, Blanco FJ et al.: 2018 update of the EULAR recommendations for the management of hand osteoarthritis. Ann Rheum Dis 2019; 78: 16-24 * Europejskie Towarzystwo  Klinicznych i Ekonomicznych Aspektów Osteoporozy,  Chzs i Chorób Mięśniowo-Szkieletowych </p>
 </div>
     <div className="page__container">
-<h1>Spełnia europejskie standardy<span> <br /> leczenia ChZS małych i dużych stawów.<sup>(1,2)</sup> </span> </h1>
+<h1>Spełnia europejskie standardy<span>  leczenia ChZS <br /> małych i dużych stawów.<sup>(1,2)</sup> </span> </h1>
     </div>
 
 
 
-    <div className="central__container page06">
+    <div className="central__container page12">
     
 <div className="container">
     <img src={process.env.PUBLIC_URL + `/images/kosciotrupy.png`} alt="" />
@@ -28,7 +28,7 @@ const Page12 = ({setPage}) => {
 
 <div className="container page12">
     <h1>
-   <span style={{color:'white', fontWeight:800}}> ESCEO*:</span> 
+   <span style={{color:'white', fontWeight:800, fontSize:'3vw'}}> ESCEO*:</span> 
 </h1>
 <h1>
 Brak rekomendacji dla <br />

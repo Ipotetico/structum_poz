@@ -13,7 +13,7 @@ const Page03 = ({setPage}) => {
     <img src={process.env.PUBLIC_URL + `/images/tlo.jpg`} alt="" className='tlo' />
     <img src={process.env.PUBLIC_URL + `/images/logo_Structum.jpg`}alt="" className="logo" />
     <p className="warning">Materiały do użytku wewnętrznego - poufne</p>
-<p className="notes page02">1. Choroba zwyrodnieniowa stawów – niepokojące symptomy | Reumatologia - mp.pl 2. Romanowski W. Jak skutecznie leczyć w chorobie zwyrodnieniowej stawów.  Od ciągłości przyjmowania leków zależy  efektywność terapii. Puls Medycyny  </p>
+<p className="notes page02">1. Choroba zwyrodnieniowa stawów – niepokojące symptomy | Reumatologia - mp.pl 2. Romanowski W. Jak skutecznie leczyć w chorobie zwyrodnieniowej stawów. <br /> Od ciągłości przyjmowania leków zależy  efektywność terapii. Puls Medycyny  </p>
 </div>
     <div className="page__container">
 <h1>Choroba zwyrodnieniowa stawów<span> stanowi</span> <br /> globalny problem <span>medyczny o narastającej skali. <sup>(1)</sup></span> </h1>
@@ -35,9 +35,9 @@ const Page03 = ({setPage}) => {
      <div onClick={() => setOpen( !open)}  className="button page03">
       <h1>
 ChZS <span> należy do </span>
-najczęstszych 
+najczęstszych <br />
 schorzeń <span><br />
-u osób <br /> po 60. <br />
+u osób  po 60. <br />
 roku życia.<sup>(2)</sup></span>
       </h1>
      </div>
@@ -63,7 +63,7 @@ choruje blisko</span> <br /> 2 miliony osób.<sup>(1)</sup>
      <div onClick={() => setOpen( !open)} className="button page03">
     <h1>
 <span>ChZS jest jedną <br />
-z </span> najczęstszych 
+z </span> najczęstszych <br />
 przyczyn niepełnosprawności ruchowej.<sup>(1)</sup>
       </h1>
      </div>
