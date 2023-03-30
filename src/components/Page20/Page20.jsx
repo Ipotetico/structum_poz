@@ -8,6 +8,8 @@ const Page20 = ({setPage}) => {
 
     <img onClick={()=>setPage(21)} src={process.env.PUBLIC_URL + `/images/dalej.svg`}alt="" className="dalej" />
 
+                    <img onClick={()=>setPage(19)} src={process.env.PUBLIC_URL + `/images/cofnij.svg`}alt="" className="cofnij" />
+
 <div className="background">
     <img src={process.env.PUBLIC_URL + `/images/tlo.jpg`} alt="" className='tlo' />
     <img src={process.env.PUBLIC_URL + `/images/logo_Structum.jpg`}alt="" className="logo" />
@@ -28,7 +30,7 @@ Wydawnictwo Lekarskie, Wydanie I Warszawa 2021 ISBN 978-83-200-6367-7 * evidence
 </div>
 
 <div className="container page12">
-    <h1 style={{color: 'white', fontWeight:600, textAlign:'left', fontSize:'calc(18px + 0.5vw)', left:0}}>
+    <h1 style={{color: 'white', fontWeight:600, textAlign:'left', fontSize:'calc(16px + 0.5vw)', left:0}}>
 Suplementy diety nie leczą, nie są 
 alternatywą dla leków, <span style={{color: '#ffca00'}}> nie podlegają badaniom klinicznym</span> zgodnym z EBM*.
 <br />

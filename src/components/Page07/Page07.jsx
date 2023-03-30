@@ -7,6 +7,8 @@ const Page07 = ({setPage}) => {
 <>
     <img onClick={()=>setPage(8)} src={process.env.PUBLIC_URL + `/images/dalej.svg`}alt="" className="dalej" />
 
+                <img onClick={()=>setPage(6)} src={process.env.PUBLIC_URL + `/images/cofnij.svg`}alt="" className="cofnij" />
+
 <div className="background">
     <img src={process.env.PUBLIC_URL + `/images/tlo.jpg`} alt="" className='tlo' />
     <img src={process.env.PUBLIC_URL + `/images/logo_Structum.jpg`}alt="" className="logo" />
@@ -20,14 +22,14 @@ z chorobą zwyrodnieniową stawów?</span>   </h1>
 
 
 
-    <div className="central__container page06">
+    <div className="central__container page12">
     
 <div className="container">
     <img src={process.env.PUBLIC_URL + `/images/PTMR.svg`} alt="" />
         <img src={process.env.PUBLIC_URL + `/images/trzy_fotki.png`} alt="" />
 </div>
 
-<div className="container" style={{padding:'3vw '}}>
+<div className="container ">
     <h2>prof. dr hab. n. med. <br />
 Anna Kuryliszyn-Moskal</h2>
 <h2>prof. dr hab. n. med. <br />

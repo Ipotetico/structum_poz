@@ -8,6 +8,8 @@ const Page16 = ({setPage}) => {
 
     <img onClick={()=> setPage(17)} src={process.env.PUBLIC_URL + `/images/dalej.svg`}alt="" className="dalej" />
 
+                    <img onClick={()=>setPage(15)} src={process.env.PUBLIC_URL + `/images/cofnij.svg`}alt="" className="cofnij" />
+
 <div className="background">
     <img src={process.env.PUBLIC_URL + `/images/tlo.jpg`} alt="" className='tlo' />
     <img src={process.env.PUBLIC_URL + `/images/logo_Structum.jpg`}alt="" className="logo" />
@@ -26,15 +28,15 @@ const Page16 = ({setPage}) => {
         <div className="picture__container">
 <img src={process.env.PUBLIC_URL + `/images/serce.png`} alt="" />
 </div>
-     <h1 className='copy'> <span>Zwiększenie ryzyka sercowo-naczyniowego <br /> </span>  oraz <span>  powikłań 
-zatorowo-zakrzepowych,</span> <br /> hamowanie aktywacji płytek krwi.<sup>(1)</sup></h1>
+     <h1 className='copy'> <span>Zwiększenie ryzyka sercowo-naczyniowego </span>  oraz <span>  powikłań 
+zatorowo-zakrzepowych,</span> hamowanie aktywacji płytek krwi.<sup>(1)</sup></h1>
 
 
         <h1 className='title'>UKŁAD <br /> POKARMOWY </h1>
                 <div className="picture__container">
 <img src={process.env.PUBLIC_URL + `/images/zolad.png`} alt="" />
 </div>
-     <h1 className='copy'> <span>Nadżerki przełyku, owrzodzenia </span>  żołądka <br /> oraz dwunastnicy, <span>  krwawienie</span> z górnego <br /> odcinka przewodu 
+     <h1 className='copy'> <span>Nadżerki przełyku, owrzodzenia </span>  żołądka <br /> oraz dwunastnicy, <span>  krwawienie</span> z górnego odcinka przewodu 
 pokarmowego.<sup>(1)</sup></h1>
 
 
@@ -43,7 +45,7 @@ pokarmowego.<sup>(1)</sup></h1>
 <img src={process.env.PUBLIC_URL + `/images/nery.png`} alt="" />
 </div>
      <h1 className='copy'> <span>Zaburzenia równowagi 
-sodowo-potasowej, </span> <br />  zwiększona retencja jonów sodu.<sup>(2)</sup></h1>
+sodowo-potasowej, </span>  zwiększona retencja jonów sodu.<sup>(2)</sup></h1>
 
 </div>
 </>
